@@ -2,7 +2,7 @@
 @import "../node_modules/compass-mixins/lib/compass/css3";
 
 $color-gray: #d1d1d1;
-$color-green: #00b38a;
+$color-green: #2470a0;
 $font-family: 'Helvetica Neue', Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 * {
@@ -232,6 +232,8 @@ a {
   }
   .section-bd {
     overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 10px;
     ul {
       li {
         margin-top: 8px;
@@ -286,6 +288,7 @@ a {
       display: inline-block;
       float: left;
       width: 25%;
+      font-size: 12px;
       @media screen and (max-width: 720px) {
         width: 100%;
         margin-bottom: 5px;
@@ -298,10 +301,19 @@ a {
     }
     .item-name {
       float: left;
+      font-weight: bold;
     }
   }
   .item-bd {
     margin-bottom: 5px;
+    .desc {
+      font-size: 12px;
+      padding-top: 10px;
+      background-color: #eee;
+      border-left: 3px solid;
+      padding: 10px;
+      margin: 10px 0;
+    }
   }
   .item-des {
     margin-bottom: 16px;
